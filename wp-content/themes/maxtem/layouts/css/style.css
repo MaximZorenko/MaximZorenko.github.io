@@ -1,0 +1,502 @@
+* {
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  min-width: 320px;
+}
+
+p, h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.iglesiass__header {
+  padding: 40px 0;
+  background-color: #fff;
+  position: relative;
+}
+
+.iglesiass__header-button {
+  width: 40px;
+  height: 33px;
+  position: relative;
+}
+
+.iglesiass__header-button .menu {
+  display: none;
+}
+
+.iglesiass__header-button .menu i {
+  font-size: 25px;
+}
+
+.iglesiass__header-button .x {
+  display: none;
+}
+
+.iglesiass__header-button .x i {
+  font-size: 30px;
+}
+
+.iglesiass__header-button .open {
+  display: block;
+}
+
+.iglesiass__header-search {
+  width: 280px;
+}
+
+.iglesiass__header-logo {
+  margin: 0 auto;
+}
+
+.iglesiass__header-icons {
+  width: 320px;
+  display: flex;
+  justify-content: right;
+}
+
+.iglesiass__header-icons a {
+  margin: 0 15px;
+}
+
+.iglesiass__header-icons a:last-child {
+  margin-right: 0;
+}
+
+.iglesiass__header-navTop {
+  background-color: #000;
+  padding: 32px 0;
+  display: none;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.iglesiass__header-navTop .iglesiass__header-navTop--wrap {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.iglesiass__header-navTop .iglesiass__header-navTop--wrap::after {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 100px;
+  border: 10px solid #000;
+  border-top-width: 0;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+.iglesiass__header-navTop .iglesiass__header-navTop--wrap::after .open {
+  display: block;
+}
+
+.iglesiass__header-navTop .iglesiass__header-navTop--wrap ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.iglesiass__header-navTop .iglesiass__header-navTop--wrap ul li {
+  padding: 0 33px;
+}
+
+.iglesiass__header-navTop .iglesiass__header-navTop--wrap ul li:first-child {
+  padding-left: 0;
+}
+
+.iglesiass__header-navTop .iglesiass__header-navTop--wrap ul li a {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+.iglesiass__header-navTop .iglesiass__header-navTop--button {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.iglesiass__header-navTop.open {
+  display: flex;
+}
+
+.iglesiass__header-navTop .iglesiass__header-navTop--wrap li.current_page_item a {
+  color: #ffefa7;
+}
+
+.iglesiass__header--dop {
+  padding: 23px 0;
+  background-color: #7f4258;
+  display: flex;
+  justify-content: center;
+}
+
+.iglesiass__header--dop .breadcrumbs .itemListElement, .iglesiass__header--dop .breadcrumbs a {
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+.iglesiass__header--dop .breadcrumbs .breadcrumbs__separator {
+  color: #b18b99;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+.iglesiass__header--dop .breadcrumbs .breadcrumbs__current {
+  color: #b18b99;
+  font-size: 12px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+.iglesiass__page--Contact h1 {
+  text-align: center;
+  font-size: 64px;
+  color: #7f4258;
+  font-weight: 300;
+  font-family: 'Arial', sans-serif;
+  padding: 30px 0;
+}
+
+.iglesiass__page--Contact p {
+  font-size: 14px;
+  color: #a3a3a3;
+  font-weight: 300;
+  font-family: 'Arial', sans-serif;
+  padding-bottom: 60px;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info span {
+  display: inline-block;
+  line-height: 42px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info .page--Contact-phone {
+  font-size: 28px;
+  font-weight: 300;
+  color: #000;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info .page--Contact-phone i {
+  position: absolute;
+  top: -14px;
+  left: -24px;
+  font-size: 14px;
+  color: #fce374;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info .page--Contact-phone::before {
+  content: 'Phone';
+  position: absolute;
+  top: -26px;
+  left: 0;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info .page--Contact-adress {
+  font-size: 15px;
+  color: #000;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info .page--Contact-adress i {
+  position: absolute;
+  top: -14px;
+  left: -24px;
+  font-size: 14px;
+  color: #fce374;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info .page--Contact-adress::before {
+  content: 'Adress';
+  position: absolute;
+  top: -26px;
+  left: 0;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info .page--Contact-email::after {
+  content: '@';
+  font-size: 16px;
+  color: #fce374;
+  position: absolute;
+  top: -26px;
+  left: -24px;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info .page--Contact-email::before {
+  content: 'E-mail';
+  position: absolute;
+  top: -26px;
+  left: 0;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.iglesiass__page--Contact .iglesiass__page--Contact-info .page--Contact-email a {
+  font-size: 15px;
+  color: #000;
+}
+
+.iglesiass__page--Contact-form {
+  padding-bottom: 60px;
+}
+
+.iglesiass__page--Contact-form h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-weight: 300;
+  font-family: 'Arial', sans-serif;
+  padding: 30px 0;
+}
+
+.iglesiass__page--Contact-form form p {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.iglesiass__page--Contact-form form p textarea {
+  padding: 5px;
+  width: 99%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #a3a3a3;
+}
+
+.iglesiass__page--Contact-form form p span:nth-child(1) {
+  flex-basis: 33%;
+  min-width: 300px;
+  padding-bottom: 10px;
+}
+
+.iglesiass__page--Contact-form form p span:nth-child(1) input {
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #a3a3a3;
+  padding: 5px;
+}
+
+.iglesiass__page--Contact-form form p span:nth-child(2) {
+  min-width: 300px;
+  flex-basis: 33%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.iglesiass__page--Contact-form form p span:nth-child(2) input {
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #a3a3a3;
+  padding: 5px;
+}
+
+.iglesiass__page--Contact-form form p span:nth-child(3) {
+  min-width: 300px;
+  flex-basis: 33%;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.iglesiass__page--Contact-form form p span:nth-child(3) input {
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #a3a3a3;
+  padding: 5px;
+}
+
+.iglesiass__page--Contact-form form p span:nth-child(4) {
+  flex-basis: 100%;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.iglesiass__page--Contact-form form p input:nth-child(5) {
+  background-color: #7f4258;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 18px 25px;
+  border: none;
+  border-radius: 2px;
+}
+
+.iglesiass__arciveGallery h2 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  padding: 40px 0;
+  color: #7f4258;
+}
+
+.iglesiass__arciveGallery h2:first-letter {
+  font-size: 70px;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a {
+  float: left;
+  padding: 20px;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a:nth-child(1) {
+  padding-right: 0;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a:nth-child(3) {
+  padding-left: 0;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a:nth-child(4) {
+  padding: 0 0 0 20px;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a:nth-child(5) {
+  padding: 0 0 0 20px;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a:nth-child(6) {
+  padding: 0 20px;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a:nth-child(7) {
+  padding: 0 20px 0 0;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a:nth-child(9) {
+  padding-left: 0;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a:nth-child(10) {
+  padding-left: 0;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a:nth-child(11) {
+  padding: 0;
+}
+
+.iglesiass__arciveGallery .iglesiass__arciveGallery-wrap a:nth-child(12) {
+  padding: 0 0 0 20px;
+}
+
+.iglesiass__slide {
+  display: flex;
+}
+
+.iglesiass__slide .iglesiass__slider--item {
+  flex-basis: 50%;
+}
+
+.iglesiass__footer {
+  background-color: #fff;
+  padding-top: 10px;
+}
+
+.iglesiass__footer h5 {
+  font-family: 'Arial', sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 25px;
+}
+
+.iglesiass__footer p {
+  font-family: 'Arial', sans-serif;
+  color: #d0d0d0;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+
+.iglesiass__footer p a {
+  font-family: 'Arial', sans-serif;
+  color: #d0d0d0;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+
+.iglesiass__footer .iglesiass__footer-icons {
+  display: flex;
+  justify-content: right;
+}
+
+.iglesiass__footer .iglesiass__footer-icons a {
+  margin: 0 15px;
+}
+
+.iglesiass__footer .iglesiass__footer-icons a:last-child {
+  margin-right: 0;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+@media (max-width: 992px) {
+  .iglesiass__page--Contact-form form p span {
+    text-align: center !important;
+  }
+}
