@@ -1,0 +1,190 @@
+@media only screen and (min-width: 2000px) {
+	.gratia--main__grid {
+		width: 2000px;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.gratia--header__nav {
+		width: 100%;
+	}
+	.gratia--header__slider {
+		width: 100%;
+	}
+	.gratia--header__slider--text {
+		width: 580px;
+		height: 330px;
+	}
+	.gratia--header__slider--text span:nth-child(1) {
+		font-size: 64px;
+	}
+	.gratia--header__slider--text span:nth-child(2) {
+		font-size: 92px;
+	}
+	.gratia--header__slider--text span:nth-child(3) {
+		font-size: 92px;
+	}
+	.gratia--header__slider--text span:nth-child(4) {
+		font-size: 64px;
+	}
+	.gratia--header__slider--list img {
+		height: 260px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.gratia--main__grid {
+		display: grid;
+		grid-template-areas: 
+			"main-1"
+			"main-2"
+			"main-3"
+			"main-4"
+			"main-5"
+			"main-6"
+			"main-7"
+			"main-8"
+			"main-9"
+			"main-10"
+		;
+		grid-template-rows: 350px 500px 500px 500px 200px 249px 250px 200px 200px 200px;
+	}
+	.gratia--main__grid img {
+		width: inherit;
+	}
+	.gratia--main__grid h2,
+	.gratia--main__grid section:nth-child(2) h2,
+	.gratia--main__grid section:nth-child(3) h2,
+	.gratia--main__grid section:nth-child(4) h2 {
+		font-size: 28px;
+		padding-bottom: 10px;
+	}
+	.gratia--main__grid p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.gratia--main__grid section:nth-child(6) .block-text {
+		padding: 39px 66px;
+	}
+	.gratia--main__grid section:nth-child(6) .gratia--main-6__btn {
+		font-size: 14px;
+		padding: 15px 15px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.gratia--header {
+		background-color: #161b29;
+		min-width: 320px;
+		height: 100vh;
+		min-height: 405px;
+	}
+	.gratia--header__nav ul {
+		position: absolute;
+		display: block;
+		z-index: 99;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+	.gratia--header__nav ul span {
+		display: none;
+	}
+	.gratia--header__nav ul.open {
+		bottom: -201px;
+	}
+	.gratia--header__nav ul a,
+	.gratia--header__nav ul li{
+		font-size: 24px;
+		width: 100%;
+		text-align: center;
+	}
+	.gratia--header__nav ul li{
+		border-bottom: 1px solid #000;
+		background-color: rgba(0,0,0,.5);
+	}
+	.gratia--header__nav ul li:nth-child(n+2) {
+		border-radius: 0;
+		padding: 10px 0;
+	}
+	.gratia--header__nav ul li:nth-child(n+2):hover {
+		background: rgba(0,0,0,.5);
+		transform: scale(1.2);
+	}
+	.gratia--header__logo {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: rgba(0,0,0);
+		position: relative;
+		z-index: 100;
+	}
+	.gratia--header__logo a {
+		text-decoration: none;
+	}
+	.gratia--header__logo i {
+		color: #fff;
+		font-size: 30px;
+		padding-right: 10px;
+		cursor: pointer;
+	}
+	.gratia--header__logo span {
+		display: block;
+		position: relative;
+		font-size: 24px;
+		font-weight: 700;
+		color: #fff;
+		padding: 30px 0 30px 54px;
+		margin-left: 10px;
+	}
+	.gratia--header__logo span::after {
+		content: url(../img/header1.png);
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+	}
+	.gratia--header__slider--text {
+		width: 350px;
+		height: 198px;
+	}
+	.gratia--header__slider--text span:nth-child(1) {
+		font-size: 38px;
+	}
+	.gratia--header__slider--text span:nth-child(2) {
+		font-size: 55px;
+	}
+	.gratia--header__slider--text span:nth-child(3) {
+		font-size: 55px;
+	}
+	.gratia--header__slider--text span:nth-child(4) {
+		font-size: 38px;
+	}
+	.gratia--header__slider--list img {
+		height: 156px;
+	}
+
+	.gratia--header__slider--indicators {
+		position: absolute;
+		width: 200px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.gratia--header__slider--scrolLeft,
+	.gratia--header__slider--scrolRight {
+		display: none;
+	}
+	.gratia--main__grid section:nth-child(6) .block-text {
+		padding: 15px 20px;
+	}
+	.gratia--main__grid section:nth-child(6) .gratia--main-6__btn {
+		font-size: 14px;
+		padding: 15px 15px;
+	}
+	.gratia--main__grid section:nth-child(6) img {
+		width: inherit;
+		height: 100%;
+	}
+}

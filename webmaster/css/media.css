@@ -1,0 +1,132 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.karaganda--main__icons--items1,.karaganda--main__icons--items2,.karaganda--main__icons--items3,.karaganda--main__icons--items4 {
+		text-align: center
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+ 
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+ .karaganda--header .pot_phone,
+ .karaganda--header .logo,
+ .karaganda--header h1,
+ .karaganda--header h2 {
+ 	text-align: center;
+ }
+ .karaganda--header h1 {
+ 	font-size: 40px;
+ }
+ .karaganda--header h2 {
+ 	font-size: 24px;
+ }
+ .karaganda--header .logo {
+ 	padding-bottom: 15px;
+ }
+ .nav-tabs > li, .tab-content > .active {
+	float: none;
+ }
+ .tab-content > .active {
+ 	font-size: 30px;
+ }
+ .karaganda--heade__top_line .nav > li{
+ 	float: none;
+ 	display: inline-block;
+ }
+ .karaganda--header__tabs .nav-tabs > li {
+ 	float: left;
+ }
+ .karaganda--header__tabs p {
+	font-size: 14px;
+	line-height: 14px;
+	padding: 15px 0 0 74px;
+	text-align: left;
+ }
+ .karaganda--header__tabs .nav > li > a{
+ 	padding: 20px 14px;
+	font-size: 14px;
+ }
+ 
+ .karaganda--main__s2--item::after {
+ 	display: none;
+ }
+ .karaganda--main__s2--item {
+ 	 padding-left: 0;
+ 	 text-align: center;
+ }
+	.karaganda--main__s2 h2 {
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width : 500px) {
+	.karaganda--main__s2 .col-xs-offset-2{
+		margin-left: 0;
+	}
+	.karaganda--main__s2 .col-xs-8{
+		float: none;
+		width: 100% !important;
+		box-sizing: border-box;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+ .karaganda--header__tabs p {
+	font-size: 14px;
+	line-height: 14px;
+	padding: 15px 0 0 74px;
+	text-align: left;
+ }
+ .karaganda--header__tabs .nav > li > a{
+ 	padding: 10px 7px;
+	font-size: 14px;
+ }
+ .karaganda--header__tabs .nav > li > a br {
+  display: block;
+ }
+ header {
+ 	min-height: 760px
+ }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

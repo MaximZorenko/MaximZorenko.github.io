@@ -1,0 +1,140 @@
+/*==========sedora--header====================================*/
+@media only screen and (max-width: 1200px) {
+	.sedora--header__navContainer,
+	.sedora--contentGrid {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 990px) {
+	.sedora--contentGrid {
+			grid-template-areas: 
+				"box-1 box-1"
+				"box-2 box-3"
+				"box-4 box-5"
+				"box-6 box-6"
+				"box-7 box-8"
+				"box-9 box-10"
+				"box-11 box-11";
+			grid-template-rows: 134px 260px 260px 260px 260px 220px 220px;
+	}
+	.sedora--content__items:nth-child(3) img,
+	.sedora--content__items:nth-child(7) img {
+		height: 100%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.sedora--contentGrid {
+			grid-template-areas: 
+				"box-1"
+				"box-2"
+				"box-3"
+				"box-4"
+				"box-5"
+				"box-6"
+				"box-7"
+				"box-8"
+				"box-9"
+				"box-10"
+				"box-11";
+	grid-template-rows: 134px 220px 220px 220px 220px 220px 220px 220px 150px 150px 150px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.sedora--header__navContainer ul {
+		display: block;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+	}
+	.sedora--header__navContainer ul.open {
+		bottom: -224px;
+		background-color: #81b3d2;
+		opacity: .9;
+	}
+	.sedora--header__navContainer ul li:nth-child(3) {
+		display: none;
+	}
+	.sedora--header__menu{
+		position: relative;
+		z-index: 10;
+		height: 56px;
+		display: flex;
+		justify-content: space-between;
+		background-color: #fff;
+	}
+	.sedora--header__menu a {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+	}
+	.sedora--header__menu img {
+		width: 105px;
+		position: relative;
+		top: 15px;
+	}
+	.sedora--header__menu i {
+		font-size: 30px;
+		color: #81b3d2;
+		padding: 10px;
+	}
+	.sedora--header__menu i.closse {
+		display: none;
+	}
+	.sedora--header__navContainer ul a {
+		padding: 20px 0; 
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		color: #fff;
+		width: 100%;
+		border-bottom: 1px solid #ccf;
+		transition: .1s;
+	}
+	.sedora--header__navContainer ul a:hover {
+		transform: scale(1.1);
+	}
+	.sedora--header__navContainer li {
+		display: flex;
+		justify-content: center;
+		
+	}
+	.sedora--header__navContainer ul li:nth-child(n+4) a {
+		text-align: center;
+	}
+	.sedora--header__navContainer ul li a::after,
+	.sedora--header__navContainer ul li a::before {
+		display: none;
+	}
+}
+
+/*====================/////////////sedora--header====================================*/
+/*=========================sedora--forms=================================*/
+@media only screen and (max-width: 600px) {
+	.sedora--forms button {
+		padding: 14px 50px;
+	}
+}
+/*============================================*/
+/*====================sedora--footer====================================*/
+
+@media only screen and (max-width: 1200px) {
+	.sedora--footer__grid {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.sedora--footer__grid {
+			grid-template-areas: 
+				"box-1"
+				"box-2"
+				"box-3";
+	grid-template-rows: 48px 48px 48px;
+	}
+}
+
+
+
+
+
+
