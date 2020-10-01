@@ -6,7 +6,7 @@ window.addEventListener('scroll', function() {
     document.querySelector('.main---header .container').classList.remove('scrol');
     document.querySelector('.main---header').classList.remove('scrol-header');
   }
-  console.log(pageYOffset + 'px');
+  // console.log(pageYOffset + 'px');
 });
 ///////////
 $('.carousel').carousel({
